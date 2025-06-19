@@ -1,0 +1,52 @@
+Field,FieldDescription,Variable,VariableDescription,Unit,Format
+quadrant,Quadrant (5x5 m2 units),NA,NA,NA,Character
+tag,Tag number used in the field.,NA,NA,NA,Character
+stemID,The unique stem identifier in the database,NA,NA,NA,Character
+treeID,The unique tree identifier in the database (according the sprout information),NA,NA,NA,Character
+IDSpp,Unique identifier code assigned to each species in the database.,AMLU,Amomyrtus luma,NA,Character
+,,AMME,Amomyrtus meli,NA,Character
+,,CAPA,Caldcluvia paniculata,NA,Character
+,,CRHO,Crinodendron hookerianum,NA,Character
+,,DRWI,Drimys winteri,NA,Character
+,,EUCO,Eucryphia cordifolia,NA,Character
+,,GEAV,Gevuina avellana,NA,Character
+,,LAPH,Laureliopsis philippiana,NA,Character
+,,MYPA,Myrceugenia parvifolia,NA,Character
+,,NONI,Nothofagus nitida,NA,Character
+,,PONU,Podocarpus nubigenus,NA,Character
+,,RALA,Raukaua laetevirens,NA,Character
+,,SACO,Saxegothaea conspicua,NA,Character
+,,TEST,Metrosideros stipularis,NA,Character
+,,WETR,Weinmannia trichosperma,NA,Character
+sprout,Group of resprouts from the same tree,R,"Sprout + number , it changes by quadrat",NA,Character
+recruited,Year of first census record (DBH >5cm),Prior,"censused in the first measurement, unspecified year of becoming a tree",NA,Character
+,,2024,first census register in the corresponding year,NA,Number
+x,"The x coordinate within the plot in cm, relative to SE edge of the plot.",NA,0 - 500,cm,Number
+y,"The y coordinate within the plot in cm, relative to SE edge of the plot.",NA,0 - 500,cm,Number
+dbh,Diameter at Breast Height ,NA,,cm,Number
+condition,"The biological status of the stem: alive(V), dead(M), missing(A), sick (E ), or prior (P)",V,Alive (in spanish Vivo) more than 75% healthy crown,NA,Character
+,,E,Alive - sick (in spanish Enfermo): less than 50% healthy crown,NA,Character
+,,Mo,Dying (in spanish Moribundo): damage that will certainly lead to death,NA,Character
+,,M,Dead (in spanish Muerto): no living crown,NA,Character
+crown_position,Position of the stem in the forest canopy.,EM,Emergent: above canopy height with light from above and from all sides,NA,Character
+,,DO,Dominant: in the canopy but receiving light from above and only from one side,NA,Character
+,,CD,Co-dominant: in the canopy with light only from above,NA,Character
+,,IN,Intermediate: directly under the canopy,NA,Character
+,,BD,Under canopy: not receiving direct light,NA,Character
+shape,Shape or form of the main trunk.,I,Inclined,NA,Character
+,,Z,"Zigzagging, winding or tortuous",NA,Character
+,,A,Arcing,NA,Character
+,,r,low-growing/creeping trees,NA,Character
+,,T,Stump,NA,Character
+,,b,Bifurcations,NA,Character
+damage,Description of any physical damage observed on the stem.,C,Fallen,NA,Character
+,,D,With canopy damage due to disturbance,NA,Character
+,,Dd,With canopy damage due to disturbance. Specifies if the individual has completely lost its crown (d),NA,Character
+,,De,With damage to the crown as a result of disturbance. Specifies if the individual has another tree on top,NA,Character
+,,Df,With damage to the crown as a result of disturbance. Specifies if the individual has fire scars (f),NA,Character
+,,Dq,With crown damage as a result of disturbance. Specifies if the individual has a broken main trunk (q),NA,Character
+,,H,Presence of fungi,NA,Character
+,,Sh,No leaves,NA,Character
+observation,Additional field observations recorded by researchers.,NA,NA,NA,Character
+ExactDate,The date on which a stem was measured.,NA,NA,mm-dd-yyyy,Date
+censusID,The numeric identifier of the census.,NA,NA,NA,Character
