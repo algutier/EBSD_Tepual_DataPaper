@@ -9,4 +9,6 @@ A dataset and standardized census protocol from a 1-ha permanent plot in an old-
 
 The dataset was created to monitor long-term forest dynamics. It aims to track changes in tree recruitment, mortality, and growth over time, providing a baseline for understanding natural forest succession and species-specific demographic patterns. This information supports ecological research in temperate forest ecosystems of southern Chile.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15700859.svg)](https://doi.org/10.5281/zenodo.15700859)
+Citation via Zenodo:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15701672.svg)](https://doi.org/10.5281/zenodo.15701672)
+
